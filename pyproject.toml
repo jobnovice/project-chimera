@@ -1,0 +1,9 @@
+[project]
+name = "project-chimera"
+version = "0.1.0"
+description = "Autonomous AI Influencer System"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
