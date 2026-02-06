@@ -200,4 +200,16 @@ The following outlines the MCP tool surface for core agent roles: `Judge` and `W
 
 ---
 
+## Implementation Requirements
+
+The following implementation files are required by the system and must be present in the repository for the feature to be considered implemented:
+
+- skills/trend_fetcher.py
+- skills/skills_interface.py
+- tests/test_trend_fetcher.py
+- tests/test_skills_interface.py
+
+Implementers MUST ensure these modules conform to the `Agent Task` protocol and include tests that validate against the JSON schemas and Postgres DDL defined above.
+
+
 
